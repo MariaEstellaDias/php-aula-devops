@@ -1,73 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Raleway", Arial, sans-serif}
+h1 {letter-spacing: 6px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
 <body>
 
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
 <!-- Header -->
-<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
-  <img class="w3-image" src="/w3images/photographer.jpg" alt="Me" width="1500" height="600">
-  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
-    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">JANE DOE</h1>
-    <h5 class="w3-hide-large" style="white-space:nowrap">JANE DOE</h5>
-    <h3 class="w3-hide-medium w3-hide-small">PHOTOGRAPHER</h3>
-  </div>
+<header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
+  <h1 class="w3-xlarge">PHOTOGRAPHER</h1>
+  <h1>John Doe</h1>
   
-  <!-- Navbar (placed at the bottom of the header image) -->
-  <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
-    <a href="#" class="w3-bar-item w3-button">Home</a>
-    <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
-    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  <div class="w3-padding-32">
+    <div class="w3-bar w3-border">
+      <a href="#" class="w3-bar-item w3-button">Home</a>
+      <a href="#" class="w3-bar-item w3-button w3-light-grey">Portfolio</a>
+      <a href="#" class="w3-bar-item w3-button">Contact</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small">Weddings</a>
+    </div>
   </div>
 </header>
 
-<!-- Navbar on small screens -->
-<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
-<div class="w3-bar w3-light-grey">
-  <a href="#" class="w3-bar-item w3-button">Home</a>
-  <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
-  <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-</div>
-</div>
-<!-- Page content -->
-<div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
-
-  <!-- Images (Portfolio) -->
-  <img src="/w3images/ocean.jpg" alt="Ocean" class="w3-image" width="1000" height="500">
-  <img src="/w3images/ocean2.jpg" alt="Ocean II" class="w3-image w3-margin-top" width="1000" height="500">
-  <img src="/w3images/falls2.jpg" alt="Falls" class="w3-image w3-margin-top" width="1000" height="500">
-  <img src="/w3images/mountainskies.jpg" alt="Skies" class="w3-image w3-margin-top" width="1000" height="500">
-  <img src="/w3images/mountains2.jpg" alt="Mountains" class="w3-image w3-margin-top" width="1000" height="500">
-
-  <!-- Contact -->
-  <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
-    <h3 class="w3-center">Contact</h3>
-    <hr>
-    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus.</p>
-
-    <form action="/action_page.php" target="_blank">
-      <div class="w3-section">
-        <label>Name</label>
-        <input class="w3-input w3-border" type="text" required name="Name">
-      </div>
-      <div class="w3-section">
-        <label>Email</label>
-        <input class="w3-input w3-border" type="text" required name="Email">
-      </div>
-      <div class="w3-section">
-        <label>Message</label>
-        <input class="w3-input w3-border" required name="Message">
-      </div>
-      <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
-    </form><br>
-    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-
+<!-- Photo Grid -->
+<div class="w3-row-padding w3-grayscale" style="margin-bottom:128px">
+  <div class="w3-half">
+    <img src="/w3images/wedding.jpg" style="width:100%">
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/falls2.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+    <img src="/w3images/nature.jpg" style="width:100%">
+    <img src="/w3images/mist.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
   </div>
 
-<!-- End page content -->
+  <div class="w3-half">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+    <img src="/w3images/ocean.jpg" style="width:100%">
+    <img src="/w3images/wedding.jpg" style="width:100%">
+    <img src="/w3images/mountainskies.jpg" style="width:100%">
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+  </div>
 </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
 
 </body>
 </html>
