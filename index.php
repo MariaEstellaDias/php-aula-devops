@@ -34,13 +34,13 @@ h1 {letter-spacing: 6px}
 <!-- Photo Grid -->
 <div class="w3-row-padding w3-grayscale" style="margin-bottom:128px">
   <div class="w3-half">
-    <img src="https://www.w3schools.com/w3images/underwater.jpgw3images/wedding.jpg" style="width:100%">
-    <img src="https://www.w3schools.com/w3images/underwater.jpgw3images/rocks.jpg" style="width:100%">
-    <img src="https://www.w3schools.com/w3images/underwater.jpgw3images/falls2.jpg" style="width:100%">
-    <img src="https://www.w3schools.com/w3images/underwater.jpgw3images/paris.jpg" style="width:100%">
-    <img src="https://www.w3schools.com/w3images/underwater.jpgw3images/nature.jpg" style="width:100%">
-    <img src="https://www.w3schools.com/w3images/underwater.jpgw3images/mist.jpg" style="width:100%">
-    <img src="https://www.w3schools.com/w3images/underwater.jpgw3images/paris.jpg" style="width:100%">
+    <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
+    <img src="https://www.w3schools.com/w3images/rocks.jpg" style="width:100%">
+    <img src="https://www.w3schools.com/w3images/falls2.jpg" style="width:100%">
+    <img src="https://www.w3schools.com/w3images/paris.jpg" style="width:100%">
+    <img src="https://www.w3schools.com/w3images/nature.jpg" style="width:100%">
+    <img src="https://www.w3schools.com/w3images/mist.jpg" style="width:100%">
+    <img src="https://www.w3schools.com/w3images/paris.jpg" style="width:100%">
   </div>
 
   <div class="w3-half">
